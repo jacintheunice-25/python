@@ -1,0 +1,8 @@
+f = open("data.txt", "r")
+word = input("Enter word: ")
+
+for line in f:
+    if word in line:
+        print(line, end="")
+
+f.close()
