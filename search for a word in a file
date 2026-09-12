@@ -1,0 +1,9 @@
+f = open("data.txt", "r")
+word = input("Enter word: ")
+
+if word in f.read():
+    print("Word found")
+else:
+    print("Word not found")
+
+f.close()
