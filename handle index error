@@ -1,0 +1,6 @@
+try:
+    a = [10, 20, 30]
+    n = int(input())
+    print(a[n])
+except IndexError:
+    print("Index out of range")
