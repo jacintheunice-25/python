@@ -1,0 +1,7 @@
+try:
+    n = int(input())
+    print(100 / n)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("Program completed")
