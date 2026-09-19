@@ -1,0 +1,6 @@
+try:
+    data = {"name": "Alex", "age": 20}
+    key = input()
+    print(data[key])
+except KeyError:
+    print("Key not found")
