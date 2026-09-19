@@ -1,0 +1,5 @@
+try:
+    n = int(input())
+    print("Number:", n)
+except ValueError:
+    print("Invalid input")
