@@ -1,0 +1,12 @@
+class LowMarksError(Exception):
+    pass
+
+try:
+    marks = int(input())
+
+    if marks < 40:
+        raise LowMarksError("Failed")
+
+    print("Passed")
+except LowMarksError as e:
+    print(e)
